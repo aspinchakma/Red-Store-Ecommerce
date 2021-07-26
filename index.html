@@ -8,30 +8,53 @@
     <title> Red Store | Ecommerce</title>
     <!-- font awesome kit code  -->
     <script src="https://kit.fontawesome.com/e0c7ddfe85.js" crossorigin="anonymous"></script>
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="images/logo.png " alt="" width="125px">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" width="125px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Account</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/cart.png" height="30px" width="30px"
+                                    alt=""></a>
+                        </li>
+
+                    </ul>
 
                 </div>
-                <nav>
-                    <ul class="MenuItems">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Account</a></li>
-                    </ul>
-                </nav>
-                <img src="images/cart.png" width="30px" height="30px" alt="">
-                <img src="images/menu.png" class="menu-icon" onclick="menutoggle() ">
             </div>
-            <div class="row">
+        </nav>
+        <div class="container">
+
+
+            <div class="row ampi-chakma">
                 <div class="col-2">
                     <h1>Give Your Workout<br>A New Style!</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eaque<br> aperiam similique
@@ -359,9 +382,7 @@
         </div>
     </div>
     <!-- -- ------------java script for toggle menu ----  -->
-    <script>
-
-    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 

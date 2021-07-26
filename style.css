@@ -26,7 +26,7 @@ header{
 p{
     color:#555;
 }
-.navbar{
+/* .navbar{
     display:flex;
     padding:20px;
     align-items:center;
@@ -42,9 +42,9 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin:20px;
-}
-header .row {
-    margin-top:70px;
+} */
+header .ampi-chakma {
+    margin-top:60px;
 }
 .row{
     display: flex;
@@ -261,29 +261,4 @@ ul{
     width:28px;
     margin-left:20px;
     display:none;
-}
-/* ------------mediaquery for menu--------- */
-@media only screen and (max-width:800px) {
-    nav ul{
-        position: absolute;
-        top:70px;
-        left:0px;
-        background-color:#333;
-        width:100%;
-    }
-    nav ul li{
-        display: block;
-        margin-right: 50px;
-        margin-top:10px;
-        margin-bottom:10px;
-    }
-    nav ul li a{
-        color:white;
-    }
-    .menu-icon{
-        display: block;
-        cursor: pointer;
-
-    }
-    body{background-color:red;}
 }
