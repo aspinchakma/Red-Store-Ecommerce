@@ -55,6 +55,7 @@ header .ampi-chakma {
 .btn:hover{
     background-color:#563434;
     transition:background-color .5s;
+    color:white;
 }
 .col-2{
     min-width: 300px;
@@ -130,6 +131,8 @@ header .ampi-chakma {
 h4{
     color:#555;
     font-weight: normal;
+    font-size:20px;
+    margin-top:20px;
 
 }
 .col-4:hover{
@@ -261,4 +264,102 @@ ul{
     width:28px;
     margin-left:20px;
     display:none;
+}
+.monipur-school{
+    margin-top:116px;
+}
+/* all products */
+.row-2{
+    flex-wrap: nowrap;
+    margin-bottom:50px;
+}
+select:focus{
+    outline:none;
+}
+.select-box-1{
+    width:200px;
+    border:1px solid #ff523b;
+    padding:5px;
+
+}
+.page-btn{
+    margin:0 auto 80px;
+}
+.page-btn span{
+    display:inline-block;
+    border:1px solid #ff523b;
+    margin-left:10px;
+    width:40px;
+    height:40px;
+    text-align:center;
+    padding-top:8px;
+    cursor:pointer;
+}
+.page-btn span:hover{
+    background-color:#ff523b;
+    transition:background-color .5s;
+    color:white;
+    
+}
+@media only screen and (max-width:600px) {
+    .row{
+        text-align:center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis:100%;
+    }
+    .single-product .row{
+        text-align:left;
+    }
+    .single-product .col-2{
+        padding:20px 0;
+    }
+}
+/* single product details  */
+.single-product{
+    margin-top:120px;
+}
+.single-product .col-2{
+    padding:0px;
+}
+.single-product .col-2 img{
+    padding:20px;
+}
+.single-product h3{
+    font-size:24px;
+    font-weight: bold;
+}
+.single-product select{
+    display:block;
+    padding:10px;
+    margin-top:20px;
+}
+.single-product input{
+    width:50px;
+    height: 40px;
+    font-size:20px;
+    padding-left:10px;
+    margin-right: 10px;
+    border:1px solid #ff523b;
+}
+input:focus{
+    outline:none;
+}
+.single-product .fas{
+    color:#ff523b;
+    margin-left:10px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor:pointer;
+}
+.small-container .korim{
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:40px;
 }
